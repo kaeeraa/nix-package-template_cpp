@@ -9,6 +9,6 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     add_compile_options(-O3 -Wall -Wextra -Wpedantic)
 endif()
 
-add_executable(main
-    main.cpp
-)
+add_executable(main main.cpp)
+
+install(TARGETS main DESTINATION .)
