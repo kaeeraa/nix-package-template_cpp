@@ -22,7 +22,6 @@
             nativeBuildInputs = [
               pkgs.cmake
               pkgs.ninja
-              pkgs.clang
             ];
             shellHook = ''
               mkdir -p build
